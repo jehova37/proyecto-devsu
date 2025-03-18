@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "67e40c9d-238d-4ec1-8825-a83dad93897d",
+		"name": "EndPoints servicio-cuenta-movimiento Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42341215"
+	},
+	"item": [
+		{
+			"name": "Ver Listado de Cuentas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "Ver Listado de Cuentas",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8098/cuentas",
+							"host": [
+								"localhost"
+							],
+							"port": "8098",
+							"path": [
+								"cuentas"
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "registrar Movimientos x CuentaID",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "registrar Movimientos x CuentaID",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:8098/movimientos?cuentaId=16&tipoMovimiento=DEPOSITO&valor=1500",
+							"host": [
+								"localhost"
+							],
+							"port": "8098",
+							"path": [
+								"movimientos"
+							],
+							"query": [
+								{
+									"key": "cuentaId",
+									"value": "16"
+								},
+								{
+									"key": "tipoMovimiento",
+									"value": "DEPOSITO"
+								},
+								{
+									"key": "valor",
+									"value": "1500"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		},
+		{
+			"name": "Ver Reportes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "Ver Reportes",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8098/movimientos/reportes?clienteId=4&fechaInicio=2025-03-16T00:00:00&fechaFin=2025-03-18T23:59:59",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8098",
+							"path": [
+								"movimientos",
+								"reportes"
+							],
+							"query": [
+								{
+									"key": "clienteId",
+									"value": "4"
+								},
+								{
+									"key": "fechaInicio",
+									"value": "2025-03-16T00:00:00"
+								},
+								{
+									"key": "fechaFin",
+									"value": "2025-03-18T23:59:59"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
