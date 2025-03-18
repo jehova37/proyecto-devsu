@@ -21,16 +21,15 @@ git clone https://github.com/jehova37/proyecto-devsu
 ir al directorio del proyecto
 cd proyecto-devsu
 
-2. **Compilar el proyecto**
+2. **Subir el broker ActiveMQ**
+- en windows apache-activemq\bin\activemq start
+
+- en Linux o Max ./apache-activemq/bin/activemq start
+
+3. **Compilar el proyecto**
 mvn clean install
 (esto compila ambos servicios y ejecuta las pruebas unitarias)
 
-3. **Subir el broker ActiveMQ**
-windows
-apache-activemq\bin\activemq start
-
-Linux o Max
-./apache-activemq/bin/activemq start
 
 4. **subir el servicio de servicio-clientes**
 java -jar servicio-clientes/target/servicio-clientes-1.0.0.jar
