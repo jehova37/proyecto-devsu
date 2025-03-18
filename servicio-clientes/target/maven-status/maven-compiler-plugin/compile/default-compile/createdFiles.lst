@@ -1,0 +1,8 @@
+com\desarrollo\servicioclientes\service\ClienteService.class
+com\desarrollo\servicioclientes\entity\Persona.class
+com\desarrollo\servicioclientes\ServicioClientesApplication.class
+com\desarrollo\servicioclientes\controller\ClienteController.class
+com\desarrollo\servicioclientes\controller\GlobalExceptionHandler.class
+com\desarrollo\servicioclientes\entity\Cliente.class
+com\desarrollo\servicioclientes\config\JmsConfig.class
+com\desarrollo\servicioclientes\repository\ClienteRepository.class
