@@ -1,0 +1,750 @@
+2023-09-11 16:10:02,969 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-09-11 16:10:02,982 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-09-11 16:10:03,025 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2023-09-11 16:10:03,028 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-09-11 16:10:03,465 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2023-09-11 16:10:03,467 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-09-11 16:10:03,468 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2023-09-11 16:10:03,470 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2023-09-11 16:10:03,652 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-54815-1694463003490-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-09-11 16:10:03,687 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-11 16:10:03,688 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-09-11 16:10:03,698 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-11 16:10:03,699 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-09-11 16:10:03,706 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-11 16:10:03,707 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-09-11 16:10:03,712 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-11 16:10:03,718 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-09-11 16:10:03,731 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-09-11 16:10:03,797 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-09-11 16:10:03,880 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@2127e66e{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2023-09-11 16:10:03,979 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-09-11 16:10:03,979 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-09-11 16:10:03,981 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-54815-1694463003490-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-09-11 16:10:03,983 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-09-11 16:10:03,996 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 85655 mb of usable space. - resetting to maximum available disk space: 85655 mb | org.apache.activemq.broker.BrokerService | main
+2023-09-11 16:10:05,005 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-09-11 16:10:05,005 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-09-12 10:53:20,173 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-09-12 10:53:20,185 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-09-12 10:53:20,219 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2023-09-12 10:53:20,220 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-09-12 10:53:20,308 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-09-12 10:53:20,316 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-09-12 10:53:20,316 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-09-12 10:53:20,607 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2023-09-12 10:53:20,608 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-09-12 10:53:20,608 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2023-09-12 10:53:20,609 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2023-09-12 10:53:20,788 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-61055-1694530400625-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-09-12 10:53:20,887 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-12 10:53:20,888 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-09-12 10:53:20,894 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-12 10:53:20,895 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-09-12 10:53:20,901 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-12 10:53:20,902 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-09-12 10:53:20,906 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-12 10:53:20,908 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-09-12 10:53:20,916 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-09-12 10:53:20,967 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-09-12 10:53:21,025 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@26586b74{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2023-09-12 10:53:21,128 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-09-12 10:53:21,128 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-09-12 10:53:21,130 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-61055-1694530400625-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-09-12 10:53:21,131 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-09-12 10:53:21,144 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 82783 mb of usable space. - resetting to maximum available disk space: 82783 mb | org.apache.activemq.broker.BrokerService | main
+2023-09-12 10:53:22,187 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-09-12 10:53:22,188 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-09-15 16:19:12,141 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-09-15 16:19:12,151 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-09-15 16:19:12,200 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2023-09-15 16:19:12,201 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-09-15 16:19:12,335 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-09-15 16:19:12,344 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-09-15 16:19:12,343 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-09-15 16:19:12,606 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2023-09-15 16:19:12,607 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-09-15 16:19:12,607 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2023-09-15 16:19:12,608 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2023-09-15 16:19:12,774 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-54075-1694809152625-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-09-15 16:19:12,875 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-15 16:19:12,876 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-09-15 16:19:12,886 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-15 16:19:12,887 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-09-15 16:19:12,892 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-15 16:19:12,893 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-09-15 16:19:12,899 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-15 16:19:12,900 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-09-15 16:19:12,907 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-09-15 16:19:12,945 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-09-15 16:19:13,006 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@74fab04a{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2023-09-15 16:19:13,106 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-09-15 16:19:13,107 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-09-15 16:19:13,109 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-54075-1694809152625-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-09-15 16:19:13,113 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-09-15 16:19:13,128 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 19105 mb of usable space. - resetting to maximum available disk space: 19105 mb | org.apache.activemq.broker.BrokerService | main
+2023-09-15 16:19:13,134 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 19105 mb of usable space. - resetting to maximum available disk space: 19105 mb | org.apache.activemq.broker.BrokerService | main
+2023-09-15 16:19:14,784 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-09-15 16:19:14,784 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-09-15 16:21:39,974 | WARN  | Transport Connection to: tcp://127.0.0.1:49277 failed: Channel was inactive for too (>30000) long: tcp://127.0.0.1:49277 | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ InactivityMonitor Worker 0
+2023-09-15 18:33:34,077 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-09-15 18:33:34,090 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-09-15 18:33:34,116 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2023-09-15 18:33:34,117 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-09-15 18:33:34,205 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-09-15 18:33:34,215 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-09-15 18:33:34,215 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-09-15 18:33:34,485 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2023-09-15 18:33:34,486 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-09-15 18:33:34,488 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2023-09-15 18:33:34,492 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2023-09-15 18:33:34,662 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-54991-1694817214508-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-09-15 18:33:34,790 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-15 18:33:34,791 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-09-15 18:33:34,800 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-15 18:33:34,801 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-09-15 18:33:34,808 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-15 18:33:34,809 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-09-15 18:33:34,817 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-15 18:33:34,820 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-09-15 18:33:34,831 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-09-15 18:33:34,888 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-09-15 18:33:34,958 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3d7fb838{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2023-09-15 18:33:35,040 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-09-15 18:33:35,041 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-09-15 18:33:35,042 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-54991-1694817214508-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-09-15 18:33:35,046 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-09-15 18:33:35,054 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 20222 mb of usable space. - resetting to maximum available disk space: 20222 mb | org.apache.activemq.broker.BrokerService | main
+2023-09-15 18:33:35,058 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 20222 mb of usable space. - resetting to maximum available disk space: 20222 mb | org.apache.activemq.broker.BrokerService | main
+2023-09-15 18:33:35,930 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-09-15 18:33:35,931 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-09-29 14:50:02,433 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-09-29 14:50:02,458 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-09-29 14:50:02,566 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2023-09-29 14:50:02,568 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-09-29 14:50:02,821 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-09-29 14:50:02,825 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-09-29 14:50:02,833 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-09-29 14:50:03,170 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2023-09-29 14:50:03,171 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-09-29 14:50:03,172 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2023-09-29 14:50:03,175 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2023-09-29 14:50:03,367 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-59293-1696013403205-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-09-29 14:50:03,469 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-29 14:50:03,470 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-09-29 14:50:03,476 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-29 14:50:03,477 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-09-29 14:50:03,482 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-29 14:50:03,483 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-09-29 14:50:03,491 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-09-29 14:50:03,491 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-09-29 14:50:03,499 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-09-29 14:50:03,563 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-09-29 14:50:03,648 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3a26ec8d{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2023-09-29 14:50:03,748 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-09-29 14:50:03,749 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-09-29 14:50:03,750 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-59293-1696013403205-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-09-29 14:50:03,753 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-09-29 14:50:03,764 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 72780 mb of usable space. - resetting to maximum available disk space: 72780 mb | org.apache.activemq.broker.BrokerService | main
+2023-09-29 14:50:05,406 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-09-29 14:50:05,406 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-10-02 14:35:56,877 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-10-02 14:35:56,889 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-10-02 14:35:56,945 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2023-10-02 14:35:56,945 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-10-02 14:35:57,073 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-10-02 14:35:57,080 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-10-02 14:35:57,080 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-10-02 14:35:57,357 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2023-10-02 14:35:57,359 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-10-02 14:35:57,360 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2023-10-02 14:35:57,360 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2023-10-02 14:35:57,581 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-60536-1696271757394-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-10-02 14:35:57,764 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-10-02 14:35:57,765 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-10-02 14:35:57,768 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-10-02 14:35:57,769 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-10-02 14:35:57,773 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-10-02 14:35:57,774 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-10-02 14:35:57,783 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-10-02 14:35:57,784 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-10-02 14:35:57,794 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-10-02 14:35:57,861 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-10-02 14:35:57,966 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1c26273d{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2023-10-02 14:35:58,081 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-10-02 14:35:58,082 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-10-02 14:35:58,082 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-60536-1696271757394-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-10-02 14:35:58,082 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-10-02 14:35:58,097 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 48796 mb of usable space. - resetting to maximum available disk space: 48796 mb | org.apache.activemq.broker.BrokerService | main
+2023-10-02 14:35:58,104 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 48796 mb of usable space. - resetting to maximum available disk space: 48796 mb | org.apache.activemq.broker.BrokerService | main
+2023-10-02 14:36:00,352 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-10-02 14:36:00,353 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-12-12 09:50:25,834 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-12-12 09:50:25,845 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-12-12 09:50:25,894 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2023-12-12 09:50:25,894 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-12-12 09:50:26,021 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-12-12 09:50:26,027 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-12-12 09:50:26,027 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-12-12 09:50:26,244 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2023-12-12 09:50:26,245 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-12-12 09:50:26,246 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2023-12-12 09:50:26,246 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2023-12-12 09:50:26,407 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-55284-1702389026266-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-12-12 09:50:26,483 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-12-12 09:50:26,483 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-12-12 09:50:26,488 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-12-12 09:50:26,489 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-12-12 09:50:26,494 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-12-12 09:50:26,494 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-12-12 09:50:26,498 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-12-12 09:50:26,498 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-12-12 09:50:26,504 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-12-12 09:50:26,556 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-12-12 09:50:26,621 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1c26273d{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2023-12-12 09:50:26,727 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-12-12 09:50:26,729 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-12-12 09:50:26,729 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-55284-1702389026266-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-12-12 09:50:26,729 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-12-12 09:50:26,743 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 1860 mb of usable space. - resetting to maximum available disk space: 1860 mb | org.apache.activemq.broker.BrokerService | main
+2023-12-12 09:50:26,747 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 1860 mb of usable space. - resetting to maximum available disk space: 1860 mb | org.apache.activemq.broker.BrokerService | main
+2023-12-12 09:50:28,004 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-12-12 09:50:28,004 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-12-13 09:18:15,140 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-12-13 09:18:15,152 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-12-13 09:18:15,226 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2023-12-13 09:18:15,227 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-12-13 09:18:15,405 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-12-13 09:18:15,415 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-12-13 09:18:15,415 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2023-12-13 09:18:15,744 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2023-12-13 09:18:15,746 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-12-13 09:18:15,746 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2023-12-13 09:18:15,747 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2023-12-13 09:18:15,938 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-57627-1702473495781-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-12-13 09:18:16,067 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-12-13 09:18:16,068 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-12-13 09:18:16,074 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-12-13 09:18:16,076 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-12-13 09:18:16,088 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-12-13 09:18:16,089 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-12-13 09:18:16,101 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-12-13 09:18:16,103 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-12-13 09:18:16,113 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-12-13 09:18:16,174 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2023-12-13 09:18:16,251 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3c83468e{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2023-12-13 09:18:16,392 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-12-13 09:18:16,393 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-12-13 09:18:16,395 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-57627-1702473495781-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-12-13 09:18:16,395 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-12-13 09:18:16,415 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 12622 mb of usable space. - resetting to maximum available disk space: 12622 mb | org.apache.activemq.broker.BrokerService | main
+2023-12-13 09:18:16,421 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 12622 mb of usable space. - resetting to maximum available disk space: 12622 mb | org.apache.activemq.broker.BrokerService | main
+2023-12-13 09:18:18,219 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-12-13 09:18:18,219 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2024-07-11 16:03:13,446 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2024-07-11 16:03:13,456 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2024-07-11 16:03:13,494 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2024-07-11 16:03:13,495 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2024-07-11 16:03:13,608 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2024-07-11 16:03:13,618 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2024-07-11 16:03:13,618 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2024-07-11 16:03:13,839 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2024-07-11 16:03:13,839 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2024-07-11 16:03:13,842 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2024-07-11 16:03:13,845 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2024-07-11 16:03:13,990 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-57737-1720728193858-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2024-07-11 16:03:14,074 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-07-11 16:03:14,075 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2024-07-11 16:03:14,081 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-07-11 16:03:14,081 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2024-07-11 16:03:14,085 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-07-11 16:03:14,086 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2024-07-11 16:03:14,090 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2024-07-11 16:03:14,091 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2024-07-11 16:03:14,098 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2024-07-11 16:03:14,140 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2024-07-11 16:03:14,200 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1c26273d{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2024-07-11 16:03:14,282 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2024-07-11 16:03:14,283 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2024-07-11 16:03:14,284 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-57737-1720728193858-0:1) started | org.apache.activemq.broker.BrokerService | main
+2024-07-11 16:03:14,284 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2024-07-11 16:03:14,295 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 10730 mb of usable space. - resetting to maximum available disk space: 10730 mb | org.apache.activemq.broker.BrokerService | main
+2024-07-11 16:03:14,299 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 10730 mb of usable space. - resetting to maximum available disk space: 10730 mb | org.apache.activemq.broker.BrokerService | main
+2024-07-11 16:03:15,544 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2024-07-11 16:03:15,545 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-15 23:32:24,499 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-15 23:32:24,508 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-15 23:32:24,547 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-15 23:32:24,547 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-15 23:32:24,686 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-15 23:32:24,695 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-15 23:32:24,695 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-15 23:32:24,941 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-15 23:32:24,942 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-15 23:32:24,943 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-15 23:32:24,945 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-15 23:32:25,107 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-52301-1742095944963-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-15 23:32:25,206 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-15 23:32:25,207 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-15 23:32:25,216 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-15 23:32:25,217 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-15 23:32:25,222 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-15 23:32:25,223 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-15 23:32:25,229 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-15 23:32:25,230 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-15 23:32:25,236 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-15 23:32:25,293 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-15 23:32:25,355 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@3a26ec8d{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-15 23:32:25,455 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-15 23:32:25,455 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-15 23:32:25,456 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-52301-1742095944963-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-15 23:32:25,459 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-15 23:32:25,473 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 49887 mb of usable space. - resetting to maximum available disk space: 49887 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-15 23:32:25,479 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 49887 mb of usable space. - resetting to maximum available disk space: 49887 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-15 23:32:27,193 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-15 23:32:27,194 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 00:23:28,913 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp1852655488-49
+2025-03-16 00:23:44,541 | INFO  | Removing message order-enricher(ID:JEHOV-CORDO-L1-57717-1694463840089-1:1:1:1:1) | org.apache.activemq.web.controller.DeleteMessage | qtp1852655488-65
+2025-03-16 10:56:49,846 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 10:56:49,859 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 10:56:49,932 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-16 10:56:49,933 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 10:56:50,082 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-16 10:56:50,092 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-16 10:56:50,092 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 10:56:50,390 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 10:56:50,392 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-16 10:56:50,393 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 10:56:50,395 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 10:56:50,580 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-51988-1742137010429-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-16 10:56:50,685 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 10:56:50,686 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 10:56:50,693 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 10:56:50,694 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 10:56:50,699 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 10:56:50,700 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 10:56:50,704 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 10:56:50,704 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 10:56:50,713 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 10:56:50,772 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 10:56:50,869 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@623ebac7{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-16 10:56:50,974 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-16 10:56:50,974 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 10:56:50,976 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-51988-1742137010429-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 10:56:50,976 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-16 10:56:50,988 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 49745 mb of usable space. - resetting to maximum available disk space: 49745 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 10:56:50,992 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 49745 mb of usable space. - resetting to maximum available disk space: 49745 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 10:56:52,430 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 10:56:52,430 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 15:07:45,124 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-51988-1742137010429-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-03-16 15:07:45,369 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 15:07:45,372 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 15:07:45,376 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 15:07:45,379 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 15:07:45,594 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 15:07:45,667 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2025-03-16 15:07:45,669 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-03-16 15:07:45,671 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-03-16 15:07:45,672 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-03-16 15:07:45,780 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-51988-1742137010429-0:1) uptime 4 hours 10 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-03-16 15:07:45,780 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-51988-1742137010429-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-03-16 15:07:55,531 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 15:07:55,541 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 15:07:55,568 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-16 15:07:55,569 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 15:07:55,654 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 15:07:55,972 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 15:07:55,973 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-16 15:07:55,973 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 15:07:55,975 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 15:07:56,143 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-60581-1742152075991-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-16 15:07:56,244 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 15:07:56,245 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 15:07:56,250 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 15:07:56,251 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 15:07:56,254 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 15:07:56,255 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 15:07:56,258 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 15:07:56,260 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 15:07:56,265 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 15:07:56,313 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 15:07:56,379 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1ab5f08a{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-16 15:07:56,476 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-16 15:07:56,476 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 15:07:56,477 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-60581-1742152075991-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 15:07:56,480 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-16 15:07:56,493 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 49716 mb of usable space. - resetting to maximum available disk space: 49716 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 15:07:56,498 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 49715 mb of usable space. - resetting to maximum available disk space: 49715 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 15:07:57,465 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 15:07:57,465 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 16:18:21,243 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-60581-1742152075991-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-03-16 16:18:21,248 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 16:18:21,249 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 16:18:21,251 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 16:18:21,252 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 16:18:21,272 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 16:18:21,280 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2025-03-16 16:18:21,280 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-03-16 16:18:21,281 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-03-16 16:18:21,282 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-03-16 16:18:21,314 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-60581-1742152075991-0:1) uptime 1 hour 10 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-03-16 16:18:21,314 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-60581-1742152075991-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-03-16 16:19:09,489 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 16:19:09,509 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 16:19:09,558 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-16 16:19:09,562 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 16:19:09,678 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 16:19:10,145 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 16:19:10,148 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-16 16:19:10,149 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 16:19:10,153 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 16:19:10,356 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-62197-1742156350181-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-16 16:19:10,503 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 16:19:10,504 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 16:19:10,511 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 16:19:10,516 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 16:19:10,524 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 16:19:10,525 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 16:19:10,531 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 16:19:10,533 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 16:19:10,543 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 16:19:10,617 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 16:19:10,700 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1ab5f08a{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-16 16:19:10,809 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-16 16:19:10,809 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 16:19:10,811 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-62197-1742156350181-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 16:19:10,813 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-16 16:19:10,826 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 49685 mb of usable space. - resetting to maximum available disk space: 49685 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 16:19:10,831 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 49685 mb of usable space. - resetting to maximum available disk space: 49685 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 16:19:12,078 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 16:19:12,079 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 17:17:49,678 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-62197-1742156350181-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-24
+2025-03-16 17:17:49,691 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-16 17:17:49,693 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-16 17:17:49,694 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-16 17:17:49,695 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-16 17:17:49,749 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-16 17:17:49,760 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-24
+2025-03-16 17:17:49,761 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2025-03-16 17:17:49,762 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2025-03-16 17:17:49,762 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2025-03-16 17:17:49,796 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-62197-1742156350181-0:1) uptime 58 minutes | org.apache.activemq.broker.BrokerService | Thread-24
+2025-03-16 17:17:49,796 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-62197-1742156350181-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-24
+2025-03-16 17:18:51,848 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 17:18:51,861 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 17:18:51,895 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-16 17:18:51,896 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 17:18:51,989 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 17:18:52,320 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 17:18:52,321 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-16 17:18:52,322 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 17:18:52,324 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 17:18:52,503 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-63540-1742159932345-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-16 17:18:52,624 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 17:18:52,625 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 17:18:52,633 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 17:18:52,634 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 17:18:52,639 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 17:18:52,640 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 17:18:52,645 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 17:18:52,646 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 17:18:52,654 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 17:18:52,714 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 17:18:52,790 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@1ab5f08a{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-16 17:18:52,882 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-16 17:18:52,883 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 17:18:52,884 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-63540-1742159932345-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 17:18:52,884 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-16 17:18:52,897 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 49672 mb of usable space. - resetting to maximum available disk space: 49672 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 17:18:52,901 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 49672 mb of usable space. - resetting to maximum available disk space: 49672 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 17:18:53,928 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 17:18:53,928 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 18:05:22,817 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-63540-1742159932345-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-24
+2025-03-16 18:05:22,833 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-16 18:05:22,835 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-16 18:05:22,836 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-16 18:05:22,838 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-16 18:05:22,875 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-16 18:05:22,887 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-24
+2025-03-16 18:05:22,888 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2025-03-16 18:05:22,889 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2025-03-16 18:05:22,889 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2025-03-16 18:05:22,928 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-63540-1742159932345-0:1) uptime 46 minutes | org.apache.activemq.broker.BrokerService | Thread-24
+2025-03-16 18:05:22,929 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-63540-1742159932345-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-24
+2025-03-16 18:36:22,917 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 18:36:22,944 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 18:36:22,991 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-16 18:36:22,992 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 18:36:23,109 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 18:36:23,396 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 18:36:23,397 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-16 18:36:23,397 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 18:36:23,400 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 18:36:23,568 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-49346-1742164583412-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-16 18:36:23,706 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 18:36:23,707 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 18:36:23,716 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 18:36:23,718 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 18:36:23,724 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 18:36:23,725 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 18:36:23,734 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 18:36:23,735 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 18:36:23,744 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 18:36:23,808 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 18:36:23,880 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@31dfc6f5{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-16 18:36:23,958 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-16 18:36:23,959 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 18:36:23,961 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-49346-1742164583412-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 18:36:23,963 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-16 18:36:23,973 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 49770 mb of usable space. - resetting to maximum available disk space: 49770 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 18:36:23,977 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 49770 mb of usable space. - resetting to maximum available disk space: 49770 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 18:36:24,916 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 18:36:24,918 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 22:18:19,020 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:18:19,028 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:18:19,105 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-16 22:18:19,106 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 22:18:19,286 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-16 22:18:19,297 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 22:18:19,297 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-16 22:18:19,697 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:18:19,699 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-16 22:18:19,699 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:18:19,702 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:18:19,881 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-52496-1742177899719-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:18:20,068 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 22:18:20,069 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 22:18:20,078 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 22:18:20,078 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 22:18:20,085 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 22:18:20,086 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 22:18:20,095 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 22:18:20,095 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 22:18:20,107 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 22:18:20,178 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 22:18:20,271 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@298f0a0b{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-16 22:18:20,404 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-16 22:18:20,405 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 22:18:20,408 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-52496-1742177899719-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:18:20,410 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:18:20,433 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 51286 mb of usable space. - resetting to maximum available disk space: 51286 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:18:22,537 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 22:18:22,538 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 22:47:33,533 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-52496-1742177899719-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-03-16 22:47:33,551 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 22:47:33,553 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 22:47:33,556 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 22:47:33,558 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 22:47:33,616 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2025-03-16 22:47:33,627 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2025-03-16 22:47:33,628 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-03-16 22:47:33,629 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-03-16 22:47:33,630 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2025-03-16 22:47:33,663 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-52496-1742177899719-0:1) uptime 29 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-03-16 22:47:33,663 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-52496-1742177899719-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2025-03-16 22:47:42,978 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:47:42,993 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:47:43,028 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-16 22:47:43,029 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 22:47:43,112 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-16 22:47:43,349 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:47:43,350 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-16 22:47:43,351 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:47:43,354 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:47:43,545 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-54132-1742179663382-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:47:43,683 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 22:47:43,684 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 22:47:43,690 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 22:47:43,692 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 22:47:43,698 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 22:47:43,698 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 22:47:43,703 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-16 22:47:43,703 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 22:47:43,713 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 22:47:43,776 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-16 22:47:43,845 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@31dfc6f5{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-16 22:47:43,922 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-16 22:47:43,924 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-16 22:47:43,925 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-54132-1742179663382-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:47:43,925 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:47:43,938 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 51253 mb of usable space. - resetting to maximum available disk space: 51253 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-16 22:47:44,839 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-16 22:47:44,840 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-17 10:38:45,951 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-17 10:38:45,975 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-17 10:38:46,099 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-17 10:38:46,100 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-17 10:38:46,456 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-17 10:38:46,468 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-17 10:38:46,469 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-17 10:38:47,080 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-17 10:38:47,082 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-17 10:38:47,083 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-17 10:38:47,083 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-17 10:38:47,303 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-54590-1742222327117-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-17 10:38:47,569 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 10:38:47,570 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 10:38:47,580 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 10:38:47,581 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 10:38:47,594 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 10:38:47,595 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 10:38:47,603 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 10:38:47,604 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 10:38:47,629 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-17 10:38:47,751 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-17 10:38:47,901 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@298f0a0b{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-17 10:38:48,071 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-17 10:38:48,077 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 10:38:48,082 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-54590-1742222327117-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-17 10:38:48,082 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-17 10:38:48,099 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 48435 mb of usable space. - resetting to maximum available disk space: 48435 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-17 10:38:48,113 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 48435 mb of usable space. - resetting to maximum available disk space: 48435 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-17 10:38:51,320 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-17 10:38:51,331 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-17 14:23:15,817 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-17 14:23:15,829 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-17 14:23:15,880 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-17 14:23:15,880 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-17 14:23:16,068 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-17 14:23:16,078 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-17 14:23:16,078 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-17 14:23:16,378 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-17 14:23:16,378 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-17 14:23:16,381 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-17 14:23:16,384 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-17 14:23:16,542 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-50304-1742235796407-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-17 14:23:16,677 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 14:23:16,678 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 14:23:16,685 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 14:23:16,686 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 14:23:16,690 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 14:23:16,691 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 14:23:16,696 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 14:23:16,697 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 14:23:16,704 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-17 14:23:16,752 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-17 14:23:16,823 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@298f0a0b{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-17 14:23:16,902 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-17 14:23:16,902 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 14:23:16,908 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-50304-1742235796407-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-17 14:23:16,910 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-17 14:23:16,920 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 51467 mb of usable space. - resetting to maximum available disk space: 51467 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-17 14:23:19,726 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-17 14:23:19,726 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-17 19:12:15,659 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-50304-1742235796407-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-24
+2025-03-17 19:12:15,680 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-17 19:12:15,681 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2025-03-17 19:12:15,683 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2025-03-17 19:12:15,683 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2025-03-17 19:12:15,683 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-17 19:12:15,684 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2025-03-17 19:12:15,685 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-17 19:12:15,687 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-17 19:12:15,766 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-24
+2025-03-17 19:12:15,791 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-24
+2025-03-17 19:12:15,792 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2025-03-17 19:12:15,793 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2025-03-17 19:12:15,794 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-24
+2025-03-17 19:12:15,876 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-50304-1742235796407-0:1) uptime 4 hours 49 minutes | org.apache.activemq.broker.BrokerService | Thread-24
+2025-03-17 19:12:15,877 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-50304-1742235796407-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-24
+2025-03-17 19:12:20,842 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-17 19:12:20,851 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-17 19:12:20,881 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-17 19:12:20,882 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-17 19:12:20,964 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-17 19:12:21,283 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-17 19:12:21,285 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-17 19:12:21,286 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-17 19:12:21,288 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-17 19:12:21,491 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-61064-1742253141314-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-17 19:12:21,662 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 19:12:21,663 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 19:12:21,670 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 19:12:21,671 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 19:12:21,678 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 19:12:21,679 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 19:12:21,685 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 19:12:21,686 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 19:12:21,695 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-17 19:12:21,792 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-17 19:12:21,878 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@7e5843db{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-17 19:12:21,955 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-17 19:12:21,956 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 19:12:21,957 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-61064-1742253141314-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-17 19:12:21,960 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-17 19:12:21,973 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 51147 mb of usable space. - resetting to maximum available disk space: 51147 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-17 19:12:21,978 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 51147 mb of usable space. - resetting to maximum available disk space: 51147 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-17 19:12:23,095 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-17 19:12:23,096 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-17 21:03:43,423 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-61064-1742253141314-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-26
+2025-03-17 21:03:43,458 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2025-03-17 21:03:43,460 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2025-03-17 21:03:43,463 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2025-03-17 21:03:43,467 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2025-03-17 21:03:43,664 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-26
+2025-03-17 21:03:43,725 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-26
+2025-03-17 21:03:43,727 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-26
+2025-03-17 21:03:43,728 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-26
+2025-03-17 21:03:43,729 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-26
+2025-03-17 21:03:43,806 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-61064-1742253141314-0:1) uptime 1 hour 51 minutes | org.apache.activemq.broker.BrokerService | Thread-26
+2025-03-17 21:03:43,806 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-61064-1742253141314-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-26
+2025-03-17 21:03:52,399 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-17 21:03:52,411 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-17 21:03:52,444 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-17 21:03:52,446 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-17 21:03:52,536 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-17 21:03:52,833 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-17 21:03:52,834 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-17 21:03:52,834 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-17 21:03:52,836 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-17 21:03:53,009 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-57711-1742259832857-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-17 21:03:53,122 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 21:03:53,123 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 21:03:53,129 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 21:03:53,130 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 21:03:53,134 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 21:03:53,135 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 21:03:53,139 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-17 21:03:53,140 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 21:03:53,149 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-17 21:03:53,212 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-17 21:03:53,273 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@7e5843db{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-17 21:03:53,356 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-17 21:03:53,357 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-17 21:03:53,359 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-57711-1742259832857-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-17 21:03:53,360 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-17 21:03:53,371 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 47501 mb of usable space. - resetting to maximum available disk space: 47501 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-17 21:03:53,375 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 47501 mb of usable space. - resetting to maximum available disk space: 47501 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-17 21:03:54,249 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-17 21:03:54,250 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-18 10:41:30,939 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-18 10:41:30,952 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2025-03-18 10:41:30,995 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | main
+2025-03-18 10:41:30,996 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-18 10:41:31,144 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovering pageFile free list due to prior unclean shutdown.. | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-18 10:41:31,152 | INFO  | KahaDB is version 7 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2025-03-18 10:41:31,153 | INFO  | Page File: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb\db.data. Recovered pageFile free list of size: 0 | org.apache.activemq.store.kahadb.disk.page.PageFile | KahaDB Index Free Page Recovery
+2025-03-18 10:41:31,423 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | main
+2025-03-18 10:41:31,424 | INFO  | PListStore:[C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2025-03-18 10:41:31,426 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | main
+2025-03-18 10:41:31,427 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | main
+2025-03-18 10:41:31,609 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-55195-1742308891455-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2025-03-18 10:41:31,752 | INFO  | Listening for connections at: tcp://JEHOV-CORDO-L1:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-18 10:41:31,753 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2025-03-18 10:41:31,762 | INFO  | Listening for connections at: amqp://JEHOV-CORDO-L1:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-18 10:41:31,763 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-18 10:41:31,771 | INFO  | Listening for connections at: stomp://JEHOV-CORDO-L1:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-18 10:41:31,771 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2025-03-18 10:41:31,777 | INFO  | Listening for connections at: mqtt://JEHOV-CORDO-L1:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2025-03-18 10:41:31,777 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2025-03-18 10:41:31,786 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-18 10:41:31,831 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | main
+2025-03-18 10:41:31,900 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@2f4e40d7{/,null,STARTING} has uncovered http methods for path: / | org.eclipse.jetty.security.SecurityHandler | main
+2025-03-18 10:41:31,982 | INFO  | Listening for connections at ws://JEHOV-CORDO-L1:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2025-03-18 10:41:31,982 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2025-03-18 10:41:31,984 | INFO  | Apache ActiveMQ 5.18.2 (localhost, ID:JEHOV-CORDO-L1-55195-1742308891455-0:1) started | org.apache.activemq.broker.BrokerService | main
+2025-03-18 10:41:31,984 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2025-03-18 10:41:31,994 | WARN  | Store limit is 102400 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data\kahadb only has 46478 mb of usable space. - resetting to maximum available disk space: 46478 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-18 10:41:32,000 | WARN  | Temporary Store limit is 51200 mb (current store usage is 0 mb). The data directory: C:\Users\jcordova\Downloads\apache-activemq-5.18.2-bin\apache-activemq-5.18.2\bin\..\data only has 46477 mb of usable space. - resetting to maximum available disk space: 46477 mb | org.apache.activemq.broker.BrokerService | main
+2025-03-18 10:41:33,360 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2025-03-18 10:41:33,361 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | main
