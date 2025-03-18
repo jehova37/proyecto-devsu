@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @ToString
 public class ReporteResponse {
     private LocalDateTime fecha;
-    private String cliente; // Nombre del cliente
+    private String cliente; // guardo el nombre del cliente
     private String numeroCuenta;
     private String tipo;
     private BigDecimal saldoInicial;

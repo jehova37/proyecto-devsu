@@ -16,11 +16,11 @@ public class JmsConfig {
     @Bean
     public MessageConverter jacksonJmsMessageConverter() {
         MappingJackson2MessageConverter converter = new MappingJackson2MessageConverter();
-        converter.setTargetType(MessageType.TEXT); // El mensaje JMS será texto (JSON)
-        converter.setTypeIdPropertyName("_type");  // Propiedad para identificar el tipo de objeto
+        converter.setTargetType(MessageType.TEXT); 
+        converter.setTypeIdPropertyName("_type");  
 
         Map<String, Class<?>> typeIdMappings = new HashMap<>();
-        typeIdMappings.put("ClienteMessage", ClienteMessage.class); // Nombre corto para el tipo
+        typeIdMappings.put("ClienteMessage", ClienteMessage.class); 
         converter.setTypeIdMappings(typeIdMappings);
 
         return converter;

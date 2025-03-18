@@ -17,6 +17,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/movimientos")
 public class MovimientoController {
+    
     @Autowired
     private MovimientoService movimientoService;
 

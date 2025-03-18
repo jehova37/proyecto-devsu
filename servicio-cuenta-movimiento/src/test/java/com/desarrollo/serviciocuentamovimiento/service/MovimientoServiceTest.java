@@ -24,6 +24,7 @@ import static org.mockito.ArgumentMatchers.*;
 import static org.mockito.Mockito.*;
 
 
+//@SpringBootTest
 public class MovimientoServiceTest {
     @InjectMocks
     private MovimientoService movimientoService;
@@ -44,7 +45,7 @@ public class MovimientoServiceTest {
 
     @Test
     public void testRegistrarMovimientoDepositoExitoso() {
-        // Arrange
+        
         Cuenta cuenta = new Cuenta();
         cuenta.setId(1L);
         cuenta.setSaldoInicial(BigDecimal.valueOf(100));
@@ -54,10 +55,10 @@ public class MovimientoServiceTest {
         when(cuentaRepository.save(any(Cuenta.class))).thenReturn(cuenta);
         when(movimientoRepository.save(any(Movimiento.class))).thenAnswer(i -> i.getArguments()[0]);
 
-        // Act
+     
         Movimiento resultado = movimientoService.registrarMovimiento(1L, "DEPOSITO", BigDecimal.valueOf(50));
 
-        // Assert
+      
         assertNotNull(resultado);
         assertEquals("DEPOSITO", resultado.getTipoMovimiento());
         assertEquals(BigDecimal.valueOf(150), resultado.getSaldo());
@@ -68,7 +69,7 @@ public class MovimientoServiceTest {
 
     @Test
     public void testRegistrarMovimientoRetiroExitoso() {
-        // Arrange
+     
         Cuenta cuenta = new Cuenta();
         cuenta.setId(1L);
         cuenta.setSaldoInicial(BigDecimal.valueOf(100));
@@ -78,10 +79,10 @@ public class MovimientoServiceTest {
         when(cuentaRepository.save(any(Cuenta.class))).thenReturn(cuenta);
         when(movimientoRepository.save(any(Movimiento.class))).thenAnswer(i -> i.getArguments()[0]);
 
-        // Act
+     
         Movimiento resultado = movimientoService.registrarMovimiento(1L, "RETIRO", BigDecimal.valueOf(50));
 
-        // Assert
+       
         assertNotNull(resultado);
         assertEquals("RETIRO", resultado.getTipoMovimiento());
         assertEquals(BigDecimal.valueOf(50), resultado.getSaldo());
@@ -92,7 +93,7 @@ public class MovimientoServiceTest {
 
     @Test
     public void testRegistrarMovimientoRetiroSaldoInsuficiente() {
-        // Arrange
+        
         Cuenta cuenta = new Cuenta();
         cuenta.setId(1L);
         cuenta.setSaldoInicial(BigDecimal.valueOf(50));
@@ -100,7 +101,7 @@ public class MovimientoServiceTest {
 
         when(cuentaRepository.findById(1L)).thenReturn(Optional.of(cuenta));
 
-        // Act & Assert
+      
         RuntimeException exception = assertThrows(RuntimeException.class, () -> {
             movimientoService.registrarMovimiento(1L, "RETIRO", BigDecimal.valueOf(100));
         });
@@ -112,7 +113,7 @@ public class MovimientoServiceTest {
 
     @Test
     public void testRegistrarMovimientoTipoInvalido() {
-        // Arrange
+        
         Cuenta cuenta = new Cuenta();
         cuenta.setId(1L);
         cuenta.setSaldoInicial(BigDecimal.valueOf(100));
@@ -120,11 +121,11 @@ public class MovimientoServiceTest {
 
         when(cuentaRepository.findById(1L)).thenReturn(Optional.of(cuenta));
 
-        // Act & Assert
+        
         RuntimeException exception = assertThrows(RuntimeException.class, () -> {
             movimientoService.registrarMovimiento(1L, "TRANSFERENCIA", BigDecimal.valueOf(50));
         });
-        assertEquals("Tipo de movimiento no válido", exception.getMessage());
+        assertEquals("Tipo de movimiento no valido", exception.getMessage());
         verify(cuentaRepository, times(1)).findById(1L);
         verify(cuentaRepository, never()).save(any());
         verify(movimientoRepository, never()).save(any());

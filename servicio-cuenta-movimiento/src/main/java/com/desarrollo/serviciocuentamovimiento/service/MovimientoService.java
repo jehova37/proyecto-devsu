@@ -51,13 +51,17 @@ public class MovimientoService {
             nuevoSaldo = cuenta.getSaldoInicial().add(valor);
         }
         else if ("RETIRO".equalsIgnoreCase(tipoMovimiento)) {
-            nuevoSaldo = cuenta.getSaldoInicial().subtract(valor);
+            if(valor.compareTo(BigDecimal.ZERO) < 0)
+                nuevoSaldo = cuenta.getSaldoInicial().add(valor);
+            else
+                nuevoSaldo = cuenta.getSaldoInicial().subtract(valor);
+
             if (nuevoSaldo.compareTo(BigDecimal.ZERO) < 0) {
                 throw new RuntimeException("Saldo insuficiente");
             }
         }
         else {
-            throw new RuntimeException("Tipo de movimiento no válido");
+            throw new RuntimeException("Tipo de movimiento no valido");
         }
 
         cuenta.setSaldoInicial(nuevoSaldo);
@@ -74,10 +78,9 @@ public class MovimientoService {
     }
 
     public List<ReporteResponse> generarReporte(Long clienteId, LocalDateTime fechaInicio, LocalDateTime fechaFin) {
-        // Consultar el nombre del cliente desde Servicio-Clientes
+        // aqui consulto el nombre del cliente desde servicio-clientes utilizando endpoint /clientes/nombres/{id}
         String clienteNombre = restTemplate.getForObject(
                 "http://localhost:8080/clientes/nombre/" + clienteId,
-                //Cliente.class
                 String.class
         );
 

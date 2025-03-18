@@ -19,6 +19,7 @@ import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
+//@SpringBootTest
 public class MovimientoControllerTest {
 
     @InjectMocks
@@ -39,7 +40,7 @@ public class MovimientoControllerTest {
 
     @Test
     public void testRegistrarMovimientoExitoso() throws Exception {
-        // Arrange
+        
         Movimiento movimiento = new Movimiento();
         movimiento.setId(1L);
         movimiento.setTipoMovimiento("DEPOSITO");
@@ -49,7 +50,7 @@ public class MovimientoControllerTest {
         when(movimientoService.registrarMovimiento(1L, "DEPOSITO", BigDecimal.valueOf(50)))
                 .thenReturn(movimiento);
 
-        // Act & Assert
+     
         mockMvc.perform(post("/movimientos")
                         .param("cuentaId", "1")
                         .param("tipoMovimiento", "DEPOSITO")
@@ -62,11 +63,11 @@ public class MovimientoControllerTest {
 
     @Test
     public void testRegistrarMovimientoSaldoInsuficiente() throws Exception {
-        // Arrange
+        
         when(movimientoService.registrarMovimiento(1L, "RETIRO", BigDecimal.valueOf(100)))
                 .thenThrow(new RuntimeException("Saldo insuficiente"));
 
-        // Act & Assert
+       
         mockMvc.perform(post("/movimientos")
                         .param("cuentaId", "1")
                         .param("tipoMovimiento", "RETIRO")
@@ -78,7 +79,7 @@ public class MovimientoControllerTest {
 
     @Test
     public void testObtenerReporteExitoso() throws Exception {
-        // Arrange
+       
         ReporteResponse reporte = new ReporteResponse();
         reporte.setCliente("Jose Lema");
         reporte.setNumeroCuenta("CUENTA-001");
@@ -89,7 +90,7 @@ public class MovimientoControllerTest {
         when(movimientoService.generarReporte(eq(1L), any(LocalDateTime.class), any(LocalDateTime.class)))
                 .thenReturn(Arrays.asList(reporte));
 
-        // Act & Assert
+        
         mockMvc.perform(get("/movimientos/reportes")
                         .param("clienteId", "1")
                         .param("fechaInicio", "2025-03-17T00:00:00")
